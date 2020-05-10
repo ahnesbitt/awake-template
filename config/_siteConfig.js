@@ -1,6 +1,6 @@
 /**
  * CMS Configuration
- * Alter 'netlify' in the import statment below to one of the following:
+ * Alter 'netlify' in the import statement below to one of the following:
  * netlify
  */
 import theCMS from '../cms/netlify/cms'
@@ -9,8 +9,9 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Machines for Progress',
+  tagline:
+    'How might machines that can think and learn help us make the world more equal?',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
